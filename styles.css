@@ -158,9 +158,6 @@ hr.style-h {
     font-weight: 400;
 }
 
-
-
-
 @media (max-width:768px) {
     .pannel{
         min-height: 30vh;
@@ -183,6 +180,24 @@ hr.style-h {
     #contact2 {
         padding-bottom: 20px;
     }
+}
+
+@media only screen and (max-width: 480px) {
+    .panel {
+        background-image: url('image/astro-landing-mobile.jpg');
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .panel {
+        background-image: url('image/pexels-yuting-gao-1567069.jpg') !important;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .panel {
+	    background-image: url('image/pexels-yuting-gao-1567069.jpg');
+   }
 }
 
 .img-event {
