@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+
+.navbar-toggler .top-bar {
+    margin-top: 0;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    margin-top: 0;
+    transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+.navbar-title {
+    font-size: small;
+}
+
+.navbar-logo {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;  
+}
+
+.container-fluid {
+    background: rgb(63,75,122);
+    background: linear-gradient(90deg, rgba(63,75,122,1) 30%, rgba(48,59,108,1) 100%);
+    opacity: 90%;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar {
+    padding: 0;
+    z-index: 9;
+    position: sticky;
+    top: 0;
+}
+
+.panel {
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+h1 {
+    font-family: 'Koulen', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: large;
+    text-align: center;
+}
+
+h3 {
+    font-size: large;
+    font-weight: bold;
+}
+
+h4,p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    font-weight:500;
+    color: #ffffff;
+}
+  
+hr.style-h {
+    border: 0; 
+    height: 1.5px; 
+    background-image: -webkit-linear-gradient(left, #656363, #fffdfd, #656363);
+    background-image: -moz-linear-gradient(left, #656363, #fffdfd, #656363);
+    background-image: -ms-linear-gradient(left, #656363, #fffdfd, #656363);
+    background-image: -o-linear-gradient(left, #656363, #fffdfd, #656363); 
+}
+
+.fa, .fas, .fab {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.far {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+}
+
+
+
+
+@media (max-width:768px) {
+    .pannel{
+        min-height: 30vh;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+
+    .registration-right {
+        width: 100%;
+    }
+    .event-list .card-text {
+        font-size: calc(0.5rem + 1vw);
+    }
+
+    .event-list .card-title span {
+        font-size: calc(0.4rem + 1vw);
+    }
+
+    #contact2 {
+        padding-bottom: 20px;
+    }
+}
+
+.img-event {
+    height: 50%;
+    width: 50%;
+}
+
+.footer-style {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(63,75,122,1) 30%, rgba(48,59,108,1) 100%);
+}
+
+.menu a {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    text-decoration: inherit;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+.welcome {
+    display: inline-block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+body{background-color: #eee;font-family: 'Manrope', sans-serif}
+.news-card{border-radius: 8px}
+.news-feed-image{border-radius: 8px;width: 100%}
+.date{font-size: 12px}.username{color: blue}
+.share{color: blue}
