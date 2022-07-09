@@ -158,6 +158,7 @@ hr.style-h {
     font-weight: 400;
 }
 
+/* Queries */
 @media (max-width:768px) {
     .pannel{
         min-height: 30vh;
@@ -186,11 +187,18 @@ hr.style-h {
     .panel {
         background-image: url('image/astro-landing-mobile.jpg');
     }
+
+    .panel.event {
+        background-image: url(image/pexels-pavel-danilyuk-9143831.jpg);
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
     .panel {
-        background-image: url('image/pexels-yuting-gao-1567069.jpg') !important;
+        background-image: url('image/pexels-yuting-gao-1567069.jpg');
+    }
+    .panel.event {
+        background-image: url(image/pexels-pavel-danilyuk-9143831.jpg);
     }
 }
 
@@ -198,6 +206,9 @@ hr.style-h {
     .panel {
 	    background-image: url('image/pexels-yuting-gao-1567069.jpg');
    }
+   .panel.event {
+    background-image: url(image/pexels-pavel-danilyuk-9143831.jpg);
+}
 }
 
 .img-event {
@@ -226,9 +237,38 @@ a {
     display: inline-block;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
-body{background-color: #eee;font-family: 'Manrope', sans-serif}
-.news-card{border-radius: 8px}
-.news-feed-image{border-radius: 8px;width: 100%}
-.date{font-size: 12px}.username{color: blue}
-.share{color: blue}
+/* newsletter  */
+ .content {
+    min-height: 30vh;
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+ }
+
+ .input-group{
+    max-width: 70%; 
+    margin: auto;
+ }
+
+.newsletter .content h2 {
+    color: #ffffff;
+    margin-bottom: 40px; 
+    font-size: x-large;
+}
+.newsletter .content .form-control {
+    height: 40px;
+    border-color: #ffffff;
+    border-radius:0;
+    }
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    }
+.newsletter .content .btn {
+    min-height: 40px; 
+    border-radius:0;
+    background: rgb(63,75,122);;
+    color: #fff;
+    font-weight:600;
+}
