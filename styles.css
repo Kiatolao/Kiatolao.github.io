@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
+/* Navbar setup */
 .navbar-toggler {
     width: 20px;
     height: 20px;
@@ -98,6 +99,7 @@
     top: 0;
 }
 
+/* Image home */
 .panel {
     background-size: cover;
     min-height: 60vh;
@@ -106,6 +108,7 @@
     text-shadow: 2px 2px 2px rgba(0,0,0,.5);
 }
 
+/* Typo */
 h1 {
     font-family: 'Koulen', cursive;
     font-size: 3rem;
@@ -133,6 +136,10 @@ p {
 
 p.text-newsletter {
     text-align: center;
+    text-shadow: #454546;
+    font-size: medium;
+    padding-top: 20px;
+    box-shadow: #454546;
 }
 
 .color-overlay {
