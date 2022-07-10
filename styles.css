@@ -194,6 +194,13 @@ hr.style-h {
     .panel.event {
         background-image: url(image/pexels-pavel-danilyuk-9143831.jpg);
     }
+
+    .modal
+    .contact-modal {
+        width: 00px;
+        padding: 0px;
+        margin: 30px auto;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
@@ -308,7 +315,7 @@ a {
     }
     .contact-modal {
         width: 600px;
-        padding: 50px;
+        padding: 50px ;
         margin: 30px auto;
     }
     .contact-modal h4 {
