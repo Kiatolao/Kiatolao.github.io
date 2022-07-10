@@ -131,6 +131,10 @@ p {
     text-align: justify;
 }
 
+.text-newsletter {
+    text-align: center;
+}
+
 .color-overlay {
     position: absolute;
     width: 100%;
@@ -199,7 +203,7 @@ hr.style-h {
         padding: 0px;
     }
     .modal-dialog {
-        max-width: 300px;
+        max-width: 320px;
     }
 }
 
