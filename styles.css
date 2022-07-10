@@ -195,11 +195,11 @@ hr.style-h {
         background-image: url(image/pexels-pavel-danilyuk-9143831.jpg);
     }
 
-    .modal
-    .contact-modal {
-        width: 00px;
+    .modal .contact-modal {
         padding: 0px;
-        margin: 30px auto;
+    }
+    .modal-dialog {
+        max-width: 300px;
     }
 }
 
