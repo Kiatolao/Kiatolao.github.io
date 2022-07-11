@@ -142,6 +142,7 @@ p.text-newsletter {
     box-shadow: #454546;
 }
 
+/* other */
 .color-overlay {
     position: absolute;
     width: 100%;
@@ -170,6 +171,32 @@ hr.style-h {
 .far {
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
+}
+
+.img-event {
+    height: 50%;
+    width: 50%;
+}
+
+.footer-style {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(63,75,122,1) 30%, rgba(48,59,108,1) 100%);
+}
+
+.menu a {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    text-decoration: inherit;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+.welcome {
+    display: inline-block;
 }
 
 /* Queries */
@@ -230,32 +257,6 @@ hr.style-h {
    .panel.event {
     background-image: url(image/pexels-pavel-danilyuk-9143831.jpg);
 }
-}
-
-.img-event {
-    height: 50%;
-    width: 50%;
-}
-
-.footer-style {
-    width: 100%;
-    background: linear-gradient(90deg, rgba(63,75,122,1) 30%, rgba(48,59,108,1) 100%);
-}
-
-.menu a {
-    color: rgba(255, 255, 255, 0.6);
-    margin: 0 10px;
-    text-transform: uppercase;
-    letter-spacing: 1px; 
-    text-decoration: inherit;
-}
-
-a {
-    text-decoration: inherit;
-}
-
-.welcome {
-    display: inline-block;
 }
 
 /* newsletter  */
