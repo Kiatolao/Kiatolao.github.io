@@ -236,7 +236,7 @@ a {
     }
 
     .panel.event {
-        background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(140, 138, 138, 0.2) 100%), url(image/pexels-pavel-danilyuk-9143831.jpg);
+        background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(140, 138, 138, 0.2) 100%), url('image/sky-watching.jpg');
     }
 
     .modal .contact-modal {
@@ -249,19 +249,19 @@ a {
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
     .panel {
-        background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(58, 58, 58, 0.2) 100%), url('image/pexels-yuting-gao-1567069.jpg');
+        background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(58, 58, 58, 0.2) 100%), url('image/astro-landing.jpg');
     }
     .panel.event {
-        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(138, 138, 138, 0.2) 100%),url(image/pexels-pavel-danilyuk-9143831.jpg);
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(138, 138, 138, 0.2) 100%),url('image/sky-watching.jpg');
     }
 }
 
 @media only screen and (min-width: 1025px) {
     .panel {
-	    background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(58, 58, 58, 0.2) 100%),url('image/pexels-yuting-gao-1567069.jpg');
+	    background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(58, 58, 58, 0.2) 100%),url('image/astro-landing.jpg');
    }
    .panel.event {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(76, 76, 76, 0.2) 100%), url(image/pexels-pavel-danilyuk-9143831.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(76, 76, 76, 0.2) 100%), url('image/sky-watching.jpg');
 }
 }
 
