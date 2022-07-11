@@ -18,6 +18,10 @@
     border: 0;
 }
 
+.nav-flex-icons {
+  flex-direction: row;
+}
+
 .navbar-toggler span {
     margin: 0;
     padding: 0;
@@ -259,6 +263,13 @@ a {
 }
 }
 
+@media only screen and (max-width: 960px) {
+    .nav-flex-icons .nav-item {
+      padding-right: 1em;
+    }
+  }
+  
+
 /* newsletter  */
  .content {
     min-height: 30vh;
@@ -385,3 +396,6 @@ a {
 		display: inline-block;
 		margin: 100px auto;
 	}
+
+    /* Social */
+
